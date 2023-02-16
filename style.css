@@ -22,22 +22,40 @@ h1, h2, h3, h4, h5 {
     align-items: center;
 }
 
-.logo {
-    margin: 44px auto auto 55px
-}
-
 .nav_bar {
     margin-top: 48px;
     margin-bottom: 59px;
     margin-right: 77px;
 }
 
+.nav_bar a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav_bar a:hover {
+    color: #0065FC;
+}
+
 #a_droit {
     margin-left: 67px;
 }
 
-header h1 {
+.h1_header {
     font-size: 22px;
     height: 26px;
+}
+
+.h1_header, .p_header, .logo {
     margin-left: 55px;
+}
+
+.rechercher {
+    color: #fff;
+    font-size: 18px;
+    padding: 14px 16px;
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: 341px;
 }
