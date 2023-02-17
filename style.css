@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     align-items: center;
 }
 
+.localisation_img:hover {
+    cursor: pointer;
+}
+
 .form_input {
     left: 20.18%;
     right: 35.54%;
@@ -100,6 +104,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 
 .rechercher:hover {
     background-color: #2177f8;
+    cursor: pointer;
 }
 
 .filtres_ul {
