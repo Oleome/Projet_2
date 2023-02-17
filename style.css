@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     display: flex;
     justify-content: space-between;
     width: 65%;
-    height: auto;
-    margin: 3% 31% auto 4.43%;
+    height: 10%;
+    margin: 3% 31% 4% 4.43%;
     padding-inline-start: 0;
     align-items: center;
     
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 .li_border {
-    border: 3px #187498 solid;
+    border: 3px #F2F2F2 solid;
     padding: 1.5% 2%;
     border-radius: 30px;
     display: flex;
@@ -138,7 +138,6 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 
 .infobulle {
     margin-top: 3%;
-    position: relative;
 }
 
 .infobulle img {
