@@ -5,8 +5,8 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    width: 1440px;
-    height: 1880px;
+    max-width: 1400px;
+    max-height: 1880px;
     font-weight: 400;
     background-color: #FFF;
     font-size: 16px;
@@ -112,8 +112,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     justify-content: space-between;
     width: 65%;
     height: 50px;
-    margin: 32px 31% auto 4%;
-
+    margin: 32px 31% auto 4.43%;
+    padding-inline-start: 0;
 }
 
 .filtres_ul li {
