@@ -6,7 +6,6 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     max-width: 1400px;
-    max-height: 1880px;
     font-weight: 400;
     background-color: #FFF;
     font-size: 16px;
@@ -23,9 +22,11 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 .nav_bar {
+    display: flex;
     margin-top: 48px;
     margin-bottom: 59px;
     margin-right: 5.3%;
+    justify-content: space-between;
 }
 
 .nav_bar a {
@@ -38,7 +39,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 #a_droit {
-    margin-left: 67px;
+    margin-right: 5.5%;
+    margin-left: 40%;
 }
 
 .h1_header {
@@ -50,8 +52,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     margin-bottom: 20px;
 }
 
-.h1_header, .p_header, .logo, .localisation_div {
-    margin-left: 55px;
+.h1_header, .p_header, .logo, .localisation_div, .infobulle {
+    margin-left: 3.9%;
 }
 
 
@@ -59,6 +61,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     display: flex;
     align-items: center;
     position: relative;
+    width: 27%;
 }
 
 .localisation_img {
@@ -66,7 +69,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    padding: 16px 18px 15px 18px;
+    padding: 16px 18px 16px 18px;
     align-items: center;
 }
 
@@ -75,18 +78,12 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 .form_input {
-    left: 20.18%;
-    right: 35.54%;
-    top: 28.57%;
-    bottom: 28.57%;
-    font-family: 'Raleway';
-    font-style: normal;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     border: 1px solid #F2F2F2;
-    padding: 14px 118px 14px 35px;
-    border-radius: 15px 0px 0px 15px;
+    padding: 16px 30% 16px 17px;
+    border-radius: 16px 0px 0px 16px;
 }
 
 /*input:focus {
@@ -94,12 +91,14 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 } J'ai préféré ne pas le mettre, suite à des recherches, pour des questions d'accessibilités*/
 
 .rechercher {
+    position: absolute;
     color: #fff;
     font-size: 18px;
-    padding: 14px 16px;
+    padding: 16px 16px 17px 16px;
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    transform: translate(252%, -99%);
 }
 
 .rechercher:hover {
@@ -111,8 +110,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     display: flex;
     justify-content: space-between;
     width: 65%;
-    height: 50px;
-    margin: 32px 31% auto 4.43%;
+    height: auto;
+    margin: 3% 31% auto 4.43%;
     padding-inline-start: 0;
 }
 
@@ -124,4 +123,14 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 .vecteur {
     position: absolute;
     transform: translate(-150%, 0%);
+}
+
+.infobulle {
+    margin-top: 3%;
+    position: relative;
+}
+
+.infobulle img {
+    transform: translate(0, 30%);
+    margin-right: 0.8%;
 }
