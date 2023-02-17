@@ -11,6 +11,10 @@ body {
     font-size: 16px;
 }
 
+header {
+    white-space: nowrap;
+}
+
 h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     font-weight: 700;
 }
@@ -26,7 +30,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     margin-top: 48px;
     margin-bottom: 59px;
     margin-right: 5.3%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .nav_bar a {
@@ -39,7 +43,6 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 #a_droit {
-    margin-right: 5.5%;
     margin-left: 40%;
 }
 
@@ -98,7 +101,6 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-    transform: translate(252%, -99%);
 }
 
 .rechercher:hover {
@@ -127,11 +129,11 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
     padding: 1.5% 2%;
     border-radius: 30px;
     display: flex;
-
+    white-space: nowrap;
 }
 
 .vecteur {
-    margin: 1%;
+    padding-right: 10px;
 }
 
 .infobulle {
