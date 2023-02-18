@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 .h1_header, .p_header, .logo, .localisation_div, .infobulle {
-    margin-left: 3.9%;
+    margin-left: 49.5px;
 }
 
 
@@ -110,10 +110,9 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 
 .filtres_ul {
     display: flex;
-    justify-content: space-between;
-    width: 65%;
-    height: 10%;
-    margin: 3% 31% 4% 4.43%;
+    width: 100%;
+    height: auto;
+    margin: 39px auto 51px 49.5px;
     padding-inline-start: 0;
     align-items: center;
     
@@ -122,11 +121,12 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 .filtres_ul li {
     list-style: none;
     size: 18px;
+    margin-right: 60px;
 }
 
 .li_border {
     border: 3px #F2F2F2 solid;
-    padding: 1.5% 2%;
+    padding: 17px 22.5px;
     border-radius: 30px;
     display: flex;
     white-space: nowrap;
@@ -137,10 +137,30 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 .infobulle {
-    margin-top: 3%;
+    margin-top: 38px;
 }
 
 .infobulle img {
     transform: translate(0, 30%);
-    margin-right: 0.8%;
+    margin-right: 10px;
+}
+
+/* section */
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.articles, .aside {
+    background-color: grey;
+}
+
+.articles {
+    width: 70%;
+}
+
+.aside {
+    width: 25%;
 }
