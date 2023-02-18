@@ -16,7 +16,7 @@ header {
     margin-bottom: 100px;
 }
 
-h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
+h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title {
     font-weight: 700;
 }
 
@@ -173,6 +173,7 @@ section {
 }
 
 .card {
+    position: absolute;
     width: 246px;
     height: 199px;
     background-color: #FFF;
@@ -190,25 +191,25 @@ section {
 
 }
 
-.article {
-    position: relative;
-}
-
 .container_card {
-    width: 100%;
     height: 50px;
     margin-left: 16px;
 }
 
-.container_card h2 {
+.container_card_title {
     font-size: 16px;
+    margin-top: 2px;
 }
 
 .container_card p, .container_card i {
     font-size: 14px;
 }
 
-.container_card h2, .container_card p, .container_card i {
-    margin: 9px 0 0 0;
+.container_card p {
+    margin: 8px 0 0 0;
     line-height: 16px;
+}
+
+.container_card i {
+    margin: 9px 0 11px;
 }
