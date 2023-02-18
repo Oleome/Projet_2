@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
+body, html {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     max-width: 1400px;
@@ -13,6 +13,7 @@ body {
 
 header {
     white-space: nowrap;
+    margin-bottom: 100px;
 }
 
 h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
@@ -27,10 +28,8 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 
 .nav_bar {
     display: flex;
-    margin-top: 48px;
-    margin-bottom: 59px;
-    margin-right: 5.3%;
-    justify-content: space-around;
+    margin: 48px 0 59px 138px;
+    width: 381px;
 }
 
 .nav_bar a {
@@ -43,7 +42,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 }
 
 #a_droit {
-    margin-left: 40%;
+    margin-left: 67px;
 }
 
 .h1_header {
@@ -110,18 +109,22 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input {
 
 .filtres_ul {
     display: flex;
-    width: 100%;
+    width: 914px;
     height: auto;
     margin: 39px auto 51px 49.5px;
     padding-inline-start: 0;
     align-items: center;
+    justify-content: space-between;
     
 }
 
 .filtres_ul li {
     list-style: none;
     size: 18px;
-    margin-right: 60px;
+}
+
+.filtres_ul li:last-child {
+    margin-right: 0;
 }
 
 .li_border {
@@ -154,13 +157,17 @@ section {
 }
 
 .articles, .aside {
-    background-color: grey;
+    background-color: #F2F2F2;
+    height: 626px;
+    margin-left: 40px;
+    border-radius: 20px;
 }
 
 .articles {
-    width: 70%;
+    width: 870px;
 }
 
 .aside {
-    width: 25%;
+    width: 410px;
+    margin-right: 40px;
 }
