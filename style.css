@@ -16,8 +16,13 @@ header {
     margin-bottom: 100px;
 }
 
-h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title {
+h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title, .box_a {
     font-weight: 700;
+}
+
+h1 {
+    font-size: 22px;
+    height: 26px;
 }
 
 .en_tete {
@@ -43,11 +48,6 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title {
 
 #a_droit {
     margin-left: 67px;
-}
-
-.h1_header {
-    font-size: 22px;
-    height: 26px;
 }
 
 .p_header {
@@ -159,25 +159,27 @@ section {
 .articles, .aside {
     background-color: #F2F2F2;
     height: 626px;
-    margin-left: 40px;
     border-radius: 20px;
 }
 
 .articles {
-    width: 870px;
+    display: grid;
+    margin-left: 50px;
+    width: 880px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .aside {
     width: 410px;
     margin-right: 40px;
+    margin-left: 40px;
 }
 
 .card {
-    position: absolute;
     width: 246px;
     height: 199px;
     background-color: #FFF;
-    margin-left: 100px; /* à supprimer après création card */
     border-radius: 20px;
     object-fit: fill;
 }
@@ -213,3 +215,62 @@ section {
     height: 11px;
     margin: 9px 0 0 0;
 }
+
+.articles h1 {
+    white-space: nowrap;
+    grid-template-columns: 1fr;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 42px auto 23px 40px;
+}
+
+.box_1, .box_2, .box_3 {
+    grid-row-start: 2;
+    margin-bottom: 30px;
+}
+
+.box_1 {
+    grid-column-end: 2;
+    margin-left: 40px;
+    margin-right: 31px;
+}
+
+.box_2 {
+    grid-column-end: 3;
+    margin-right: 31px;
+}
+
+.box_3 {
+    grid-column-end: 4;
+    margin-right: 40px;
+}
+
+.box_4 {
+    grid-row-start: 3;
+    grid-column-end: 2;
+    margin-left: 40px;
+    margin-right: 31px;
+}
+
+.box_5 {
+    grid-row-start: 3;
+    grid-column-end: 3;
+    margin-right: 31px;
+}
+
+.box_6 {
+    grid-row-start: 3;
+    grid-column-end: 4;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.box_a {
+    grid-row-start: 4;
+    grid-column-end: 2;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 44px;
+    margin-bottom: 46px;
+}
+
