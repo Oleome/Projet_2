@@ -59,7 +59,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-.h1_header, .p_header, .logo, .localisation_div, .infobulle {
+.h1_header, .p_header, .logo, .localisation_div, .infobulle, .titre_section_bas, .articles, .bas_card_1 {
     margin-left: 49.5px;
 }
 
@@ -160,7 +160,7 @@ h1 {
 
 /* section */
 
-section {
+.section_haut {
     display: flex;
     justify-content: space-between;
     margin-top: 80px;
@@ -174,7 +174,6 @@ section {
 
 .articles {
     display: grid;
-    margin-left: 50px;
     width: 880px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -378,5 +377,39 @@ section {
 
 .aside_box_1, .aside_box_2, .aside_box_3 {
     margin-bottom: 33px;
+}
+
+.section_bas {
+
+}
+
+.titre_section_bas {
+    margin: 60px 0 18.5px 49.5px;
+}
+
+.section_bas_cards {
+    display: flex;
+    object-fit: fill;
+}
+
+.bas_card {
+    display: block;
+    width: 302px;
+    height: 444.5px;
+    object-fit: fill;
+}
+
+.bas_card img {
+    width: 302px;
+    height: 444.5px;
+}
+
+.bas_card:first-child {
+    margin-left: 49.5px;
+    margin-right: 43px;
+}
+
+.bas_card:nth-child(2), .bas_card:nth-child(3) {
+    margin-right: 43px;
 }
 
