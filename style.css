@@ -16,7 +16,7 @@ header {
     margin-bottom: 100px;
 }
 
-h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title, .box_a {
+h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title, .box_a, .aside_container_card_title {
     font-weight: 700;
 }
 
@@ -48,6 +48,7 @@ h1 {
 
 .nav_bar a:hover {
     color: #0065FC;
+    text-decoration: underline;
 }
 
 #a_droit {
@@ -139,12 +140,17 @@ h1 {
     white-space: nowrap;
 }
 
+.li_border:hover {
+    background-color: #DEEBFF;
+}
+
 .vecteur {
     padding-right: 10px;
 }
 
 .infobulle {
     margin-top: 38px;
+    margin-bottom: 20px;
 }
 
 .infobulle img {
@@ -228,7 +234,7 @@ section {
 .card_container > img {
     width: 68px;
     height: 11px;
-    margin: 9px 0 0 0;
+    margin: 9px 162px 11px 0;
 }
 
 .articles h1 {
@@ -289,13 +295,21 @@ section {
     margin: 0 0 46px 44px;
 }
 
+.aside_en_tete {
+    display: flex;
+}
+
+.aside_en_tete img {
+    margin: 46px 42px 0 0;
+}
+
 .aside h1 {
-    margin-top: 41px;
-    margin-left: 37px;
+    white-space: nowrap;
+    margin: 41px 118px 26px 37px;
 }
 
 .aside_articles_card {
-    width: 343px;
+    width: 334px;
     height: 144px;
     background-color: #FFF;
     border-radius: 20px;
@@ -317,15 +331,15 @@ section {
 .aside_articles_card > img {
     width: 137px;
     height: 100%;
-    padding: 5px 0 5px 5px;
+    padding: 5px 5px 5px 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     transform: scale(1);
 }
 
-.card_container {
-    height: 50px;
-    margin-left: 16px;
+.aside_card_container {
+    width: 197px;
+    height: 144px;
     object-fit: fill;
 }
 
@@ -335,16 +349,18 @@ section {
     margin: 16px 22px 7px 15px;
 }
 
-.card_container p {
+.aside_card_container p {
     margin-left: 15px;
     line-height: 16px;
     font-size: 14px;
 }
 
-.card_container > img {
-    width: 68px;
-    height: 11px;
-    margin: 9px 0 0 0;
+.aside_card_container_img {
+    margin: 30px 0 0 15px;
+}
+
+.aside_card_container_img_last {
+    margin: 49px 0 0 15px
 }
 
 .articles h1 {
@@ -364,6 +380,3 @@ section {
     margin-bottom: 33px;
 }
 
-.aside_box_3 {
-
-}
