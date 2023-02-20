@@ -379,10 +379,6 @@ h1 {
     margin-bottom: 33px;
 }
 
-.section_bas {
-
-}
-
 .titre_section_bas {
     margin: 60px 0 18.5px 49.5px;
 }
@@ -399,6 +395,10 @@ h1 {
     object-fit: fill;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(172, 161, 161, 0.4);
+}
+
+.bas_card:hover {
+    transform: rotate(1deg);
 }
 
 .bas_card img {
