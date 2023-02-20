@@ -452,12 +452,8 @@ footer li {
     margin: 45px 0 0 70px;
 }
 
-.nav_2 {
-    margin: 45px 0 0 230px;
-}
-
-.nav_3 {
-    margin: 45px 0 0 239px;
+.nav_2, .nav_3 { 
+    margin: 45px 0 0 235px;
 }
 
 .li_footer {
