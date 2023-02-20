@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-body, html {
+body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     max-width: 1400px;
@@ -176,8 +176,7 @@ section {
 
 .aside {
     width: 410px;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin: 0 40px;
 }
 
 .card {
@@ -249,24 +248,25 @@ section {
     margin-right: 40px;
 }
 
-.box_4 {
+.box_4, .box_5, .box_6 {
     grid-row-start: 3;
+
+}
+
+.box_4 {
     grid-column-end: 2;
-    margin-left: 40px;
-    margin-right: 31px;
+    margin: 0 31px 40px 40px;
 }
 
 .box_5 {
-    grid-row-start: 3;
     grid-column-end: 3;
     margin-right: 31px;
 }
 
 .box_6 {
-    grid-row-start: 3;
     grid-column-end: 4;
     margin-right: 40px;
-    margin-bottom: 40px;
+    
 }
 
 .box_a {
@@ -274,7 +274,6 @@ section {
     grid-column-end: 2;
     font-size: 18px;
     text-decoration: none;
-    margin-left: 44px;
-    margin-bottom: 46px;
+    margin: 0 0 46px 44px;
 }
 
