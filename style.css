@@ -397,11 +397,15 @@ h1 {
     width: 302px;
     height: 444.5px;
     object-fit: fill;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(172, 161, 161, 0.4);
 }
 
 .bas_card img {
     width: 302px;
-    height: 444.5px;
+    height: 389px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .bas_card:first-child {
@@ -411,5 +415,11 @@ h1 {
 
 .bas_card:nth-child(2), .bas_card:nth-child(3) {
     margin-right: 43px;
+}
+
+.bas_card h2 {
+    height: 15px;
+    font-size: 16px;
+    margin: 15px 36px 21px 19px;
 }
 
