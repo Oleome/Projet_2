@@ -208,24 +208,24 @@ section {
 
 }
 
-.container_card {
+.card_container {
     height: 50px;
     margin-left: 16px;
     object-fit: fill;
 }
 
-.container_card_title {
+.card_container_title {
     font-size: 16px;
     margin-top: 2px;
 }
 
-.container_card p {
+.card_container p {
     margin: 8px 0 0 0;
     line-height: 16px;
     font-size: 14px;
 }
 
-.container_card > img {
+.card_container > img {
     width: 68px;
     height: 11px;
     margin: 9px 0 0 0;
