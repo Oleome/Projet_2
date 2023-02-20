@@ -185,6 +185,17 @@ section {
     background-color: #FFF;
     border-radius: 20px;
     object-fit: fill;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.4);
+}
+
+.card:hover {
+    transform: scale(1.05 , 1.05);
+    transition: 0.5s;
+    object-fit: fill;
+}
+
+.card:hover > img {
+    transform: scale(0.95);
 }
 
 .card > img {
@@ -193,6 +204,7 @@ section {
     padding: 5px 5px 0 5px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    transform: scale(1);
 
 }
 
