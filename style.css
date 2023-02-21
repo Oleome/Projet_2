@@ -28,7 +28,7 @@ h1 {
 .en_tete {
     display: flex;
     align-items: center;
-    margin: 45px 77px 0 49.5px;
+    margin: 45px 77px 68px 49.5px;
 }
 
 .logo {
@@ -78,7 +78,6 @@ h1 {
 }
 
 .localisation_img {
-    position: absolute;
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -96,7 +95,6 @@ h1 {
     text-align: center;
     border: 1px solid #F2F2F2;
     padding: 16px 30% 16px 17px;
-    border-radius: 16px 0px 0px 16px;
 }
 
 /*input:focus {
@@ -104,7 +102,6 @@ h1 {
 } J'ai préféré ne pas le mettre, suite à des recherches, pour des questions d'accessibilités*/
 
 .rechercher {
-    position: absolute;
     color: #fff;
     font-size: 18px;
     padding: 16px 16px 17px 16px;
@@ -155,6 +152,7 @@ h1 {
 }
 
 .infobulle {
+    position: relative;
     margin-top: 38px;
     margin-bottom: 20px;
 }
@@ -313,7 +311,7 @@ h1 {
     margin: 41px 118px 26px 37px;
 }
 
-.aside_articles_card {
+.aside_box {
     width: 334px;
     height: 144px;
     background-color: #FFF;
@@ -323,49 +321,41 @@ h1 {
     display: flex;
 }
 
-.aside_articles_card:hover {
+.aside_box:hover {
     transform: scale(1.05 , 1.05);
     transition: 0.5s;
     object-fit: fill;
 }
 
-.aside_articles_card:hover > img {
+.aside_box:hover > img {
     transform: scale(0.95);
 }
 
-.aside_articles_card > img {
+.aside_box > img {
     width: 137px;
     height: 100%;
     padding: 5px 5px 5px 5px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    transform: scale(1);
 }
 
 .aside_card_container {
     width: 197px;
     height: 144px;
-    object-fit: fill;
+    margin-left: 15px;
 }
 
 .aside_container_card_title {
-    width: 169px;
     font-size: 16px;
-    margin: 16px 22px 7px 15px;
 }
 
 .aside_card_container p {
-    margin-left: 15px;
     line-height: 16px;
     font-size: 14px;
 }
 
-.aside_card_container_img {
-    margin: 30px 0 0 15px;
-}
-
-.aside_card_container_img_last {
-    margin: 49px 0 0 15px
+.aside_card_container img {
+    align-self: flex-end;
 }
 
 .articles h1 {
@@ -376,12 +366,12 @@ h1 {
     margin: 42px auto 23px 40px;
 }
 
-.aside_box_1, .aside_box_2, .aside_box_3 {
+.aside_box {
     margin-left: 37px;
     margin-right: 40px;
 }
 
-.aside_box_1, .aside_box_2, .aside_box_3 {
+.aside_box {
     margin-bottom: 33px;
 }
 
@@ -464,4 +454,44 @@ footer li {
 
 .li_footer {
     margin-bottom: 12px;
+}
+
+/*tablette*/
+
+@media screen and (max-width: 991px) {
+    .nav_bar a:first-child {
+        margin-left: 580px;
+    }
+
+    .filtres_ul {
+        width: 850px;
+    }
+
+    .section_haut {
+        display: block;
+    }
+
+    .aside {
+        width: 883px;
+        height: 278px;
+        margin-left: 49.5px;
+        margin-top: 53px;
+    }
+
+    .aside_en_tete {
+        justify-content: space-between;
+    }
+
+    .aside_cards {
+        display: flex;
+    }
+
+    .aside_box {
+        width: 252px;
+        height: 144px;
+    }
+
+    .aside_card_container {
+        margin-left: 10px;
+    }
 }
