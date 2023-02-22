@@ -229,9 +229,19 @@ h1 {
     font-size: 14px;
 }
 
-i {
+.stars {
+    display: flex;
     font-size: .8rem;
-    letter-spacing: 2px;
+    word-spacing: -.5ch;
+}
+
+.blue_star {
+    color: #0065FC;
+    width: max-content;
+}
+
+.grey_star {
+    color: #F2F2F2;
 }
 
 .card_container > img {
