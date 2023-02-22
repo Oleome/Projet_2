@@ -48,7 +48,6 @@ h1 {
 
 .nav_bar a:first-child {
     margin-right: 67px;
-    margin-left: 1000px;
 }
 
 .nav_bar a, footer a {
@@ -117,7 +116,7 @@ h1 {
 
 .filtres_ul {
     display: flex;
-    width: 914px;
+    width: 70%;
     height: auto;
     margin: 39px auto 51px 49.5px;
     padding-inline-start: 0;
@@ -459,13 +458,6 @@ footer li {
 /*tablette*/
 
 @media screen and (max-width: 991px) {
-    .nav_bar a:first-child {
-        margin-left: 580px;
-    }
-
-    .filtres_ul {
-        width: 850px;
-    }
 
     .section_haut {
         display: block;
