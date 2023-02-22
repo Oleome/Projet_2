@@ -182,7 +182,6 @@ h1 {
     width: 63%;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: .25fr 2fr 2fr .5fr;
-    justify-content: center;
     object-fit: contain;
     gap: 30px;
 }
@@ -218,17 +217,17 @@ h1 {
     width: 100%;
     height: 36%;
     padding-left: 16px;
-    display: block;
-    align-content: space-between;
 }
 
 .container_card_title {
     font-size: 1rem;
     padding-bottom: 7px;
     margin:0;
+    
 }
 
 .card_container p {
+    padding-bottom: 7px;
     margin: 0;
     font-size: 0.9rem;
 }
@@ -240,18 +239,10 @@ h1 {
 
 .stars i {
     color: #0065FC;
-    width: max-content;
 }
 
 .stars:last-child {
     color: #F2F2F2;
-}
-
-.card_container > img {
-    width: 65px;
-    margin-top: 8px;
-    object-fit: cover;
-    overflow: hidden;
 }
 
 .article_h1 {
@@ -315,6 +306,10 @@ section h1 {
     margin-bottom: 9%;
 }
 
+.aside h1 {
+    white-space: nowrap;
+}
+
 .aside_en_tete img {
     object-fit: contain;
 }
@@ -331,6 +326,14 @@ section h1 {
 
 .aside_card_container > * {
     margin: 0;
+}
+
+.aside_card_container h2 {
+    padding-bottom: 7px;
+}
+
+.aside_card_container p {
+    padding-bottom: 44px;
 }
 
 .aside_cards:hover {
@@ -356,6 +359,7 @@ section h1 {
     height: 144px;
     padding: 16px 22px 12px 15px;
     align-content: space-between;
+    overflow: hidden;
 }
 
 .aside_card_container_title {
