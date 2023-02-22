@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title, .box_a, 
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 1.4rem;
     height: 26px;
 }
 
@@ -89,7 +89,7 @@ h1 {
 }
 
 .form_input {
-    font-size: 18px;
+    font-size: 1.2rem;
     line-height: 21px;
     text-align: center;
     border: 1px solid #F2F2F2;
@@ -102,7 +102,7 @@ h1 {
 
 .rechercher {
     color: #fff;
-    font-size: 18px;
+    font-size: 1.2rem;
     padding: 16px 16px 17px 16px;
     background: #0065FC;
     border: 1px solid #0065FC;
@@ -219,14 +219,14 @@ h1 {
 }
 
 .container_card_title {
-    font-size: 16px;
+    font-size: 1rem;
     padding-bottom: 7px;
     margin:0;
 }
 
 .card_container p {
     margin: 0;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 .stars {
@@ -297,7 +297,7 @@ section h1 {
 .box_a {
     grid-row-start: 4;
     grid-column-end: 2;
-    font-size: 18px;
+    font-size: 1.2rem;
     text-decoration: none;
 }
 
@@ -356,12 +356,12 @@ section h1 {
 }
 
 .aside_card_container_title {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .aside_card_container p {
     line-height: 16px;
-    font-size: 14px;
+    font-size: 0.9rem;
 }
 
 
@@ -405,7 +405,7 @@ section h1 {
 
 .bas_card h2 {
     height: 15px;
-    font-size: 16px;
+    font-size: 1rem;
     margin: 15px 36px 21px 19px;
 }
 
@@ -430,7 +430,7 @@ footer li {
 }
 
 .footer_title {
-    font-size: 18px;
+    font-size: 1.2rem;
     margin-bottom: 20px;
 }
 
