@@ -3,6 +3,7 @@
 }
 
 body {
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     margin: 0;
     max-width: 1400px;
@@ -14,21 +15,23 @@ body {
 
 header {
     white-space: nowrap;
-    margin-bottom: 100px;
+    margin-bottom: 36px;
 }
 
-h1, h2, h3, h4, h5, .filtres_ul li, .form_input, .container_card_title, .box_a, .aside_container_card_title {
+h1, h2, h3, .filtres_ul li, .form_input {
     font-weight: 700;
 }
 
 h1 {
     font-size: 1.4rem;
-    height: 26px;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 .en_tete {
     display: flex;
-    align-items: center;
 }
 
 .logo {
@@ -62,6 +65,7 @@ h1 {
 }
 
 .h1_header {
+    margin-top: 0;
     margin-bottom: 8px;
 }
 
@@ -119,7 +123,7 @@ h1 {
     display: flex;
     width: 70%;
     height: auto;
-    margin: 39px auto 51px 0;
+    margin: 39px auto 0 0;
     padding-inline-start: 0;
     align-items: center;
     justify-content: space-between;
@@ -152,9 +156,7 @@ h1 {
 }
 
 .infobulle {
-    position: relative;
     margin-top: 38px;
-    margin-bottom: 20px;
 }
 
 .infobulle img {
@@ -168,7 +170,6 @@ h1 {
 .section_haut {
     display: flex;
     justify-content: space-between;
-    margin-top: 80px;
 }
 
 .articles, .aside {
@@ -219,6 +220,7 @@ h1 {
     padding: 0 16px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr ;
+    align-items: center;
 }
 
 .container_card_title {
@@ -360,10 +362,6 @@ section h1 {
     overflow: hidden;
 }
 
-.aside_card_container_title {
-    font-size: 1rem;
-}
-
 .aside_card_container p {
     line-height: 16px;
     font-size: 0.9rem;
@@ -413,8 +411,6 @@ section h1 {
 }
 
 .bas_card h2 {
-    height: 15px;
-    font-size: 1rem;
     margin: 15px 36px 21px 19px;
 }
 
