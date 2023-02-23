@@ -531,13 +531,18 @@ footer li {
     .bas_card h2 {
         height: 100%;
         margin: 0;
-        padding-left: 19px;
-
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .bas_card_title {
         align-self: center;
     }
+
+    #notre_dame {
+        padding-right: 36px;
+    }
+
     /*.bas_card h2 {
         align-items: center;
         margin-left: 19px;
