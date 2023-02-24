@@ -88,8 +88,9 @@ h2 {
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
-    padding: 16px 18px 16px 18px;
+    padding: 18px 18px 17px 18px;
     align-items: center;
+    flex-shrink: 0;
 }
 
 .localisation_img:hover {
@@ -97,11 +98,13 @@ h2 {
 }
 
 .form_input {
+    flex-shrink: 0;
     font-size: 1.2rem;
     line-height: 21px;
     text-align: center;
     border: 1px solid #F2F2F2;
-    padding: 16px 30% 16px 17px;
+    padding: 16px 100px 16px 25px;
+    transform: translate(-1%, 0);
 }
 
 /*input:focus {
@@ -109,12 +112,15 @@ h2 {
 } J'ai préféré ne pas le mettre, suite à des recherches, pour des questions d'accessibilités*/
 
 .rechercher {
+    flex-shrink: 0;
+    position: relative;
     color: #fff;
     font-size: 1.2rem;
-    padding: 16px 16px 17px 16px;
+    padding: 15px 16px 15px 16px;
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
+    transform: translate(-50%, 0);
 }
 
 .rechercher:hover {
@@ -586,30 +592,61 @@ footer li {
         padding: 0;
     }
 
+    header {
+        white-space: normal;
+    }
+
     .en_tete {
-        display: grid;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .logo {
-        padding: 0;
         margin: 0;
-        margin-top: 21px;
-        margin-bottom: 48px;
-        grid-row: 1;
-        width: 61px;
-        height: 19px;
-        justify-self: center;
-        align-self: center;
-        grid-template-rows: 1fr;
+        padding: 21px 0;
+        text-align: center;
     }
 
     .nav_bar {
-        grid-row: 2 / 3;
-        grid-template-columns: 50% 50%;
-        grid-row: 2;
+       width: 100%;
+       margin: 0;
+    }
+
+    .nav_bar a {
+        text-align: center;
         margin: 0;
-        padding: 0;
+        width: 50%;
+        padding: 0 0 20px 0;
+        border-bottom: 2px solid #F2F2F2;
+    }
+
+    .nav_bar a:hover {
+        border-bottom-color: #0065FC;    
+        border-top: none;    
+        padding-top: 0;
+        color: #0065FC;
+    }
+
+    #a_gauche {
+        margin: 0;
+    }
+
+    .h1_header{
+        margin: 31px 20px 13px 20px;
+    }
+
+    .p_header {
+        font-size: 1rem;
+        margin-left: 20px;
     }
     
+    .header_form {
+        display: flex;
+        padding-left: 22px;
+        width: 100%;
+    }
 
+    .rechercher
+
+   
 }
