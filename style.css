@@ -10,7 +10,7 @@ body {
     font-weight: 400;
     background-color: #FFF;
     font-size: 16px;
-    padding: 44px 50px 0;
+    padding: 0 50px;
 }
 
 header {
@@ -35,10 +35,9 @@ h2 {
 }
 
 .logo {
-    float: right;
-    padding: 0;
     margin-right: auto;
-    margin-bottom: 63px;
+    padding-top: 44px;
+    padding-bottom: 63px;
 }
 
 .logo:hover {
@@ -54,14 +53,18 @@ h2 {
     margin-right: 67px;
 }
 
+.nav_bar a {
+    padding: 48px 15px 0;
+}
+
 .nav_bar a, .bas_de_page a {
     text-decoration: none;
     color: black;
 }
 
 .nav_bar a:hover {
-    color: #0065FC;
-    text-decoration: underline;
+    border-top: 2px solid #0065FC;
+    padding-top: 46px;
 }
 
 .h1_header {
@@ -575,4 +578,35 @@ footer li {
     .bas_de_page {
         width: 100%;
     }
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        padding: 0;
+    }
+
+    .en_tete {
+        display: grid;
+    }
+
+    .logo {
+        padding-top: 21px;
+        margin: 0;
+        grid-row: 1;
+        width: auto;
+        height: 129px;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .logo img {
+        object-fit: contain;
+    }
+
+    .nav_bar {
+        grid-row: 2 / 3;
+        grid-template-columns: 50% 50%;
+    }
+
 }
