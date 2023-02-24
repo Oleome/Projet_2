@@ -123,7 +123,6 @@ h2 {
     display: flex;
     width: 70%;
     height: auto;
-    margin: 39px auto 0 0;
     padding-inline-start: 0;
     align-items: center;
     justify-content: space-between;
@@ -132,7 +131,6 @@ h2 {
 
 .filtres_ul li {
     list-style: none;
-    size: 18px;
 }
 
 .filtres_ul li:last-child {
@@ -466,6 +464,10 @@ footer li {
         font-size: .8rem;
     }
 
+    .filtres_ul {
+        width: 100%;
+    }
+
     .section_haut {
         display: block;
     }
@@ -543,8 +545,5 @@ footer li {
         padding-right: 36px;
     }
 
-    /*.bas_card h2 {
-        align-items: center;
-        margin-left: 19px;
-    }*/
+   
 }
