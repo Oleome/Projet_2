@@ -660,5 +660,22 @@ footer li {
         grid-area: 1 / 1 / 2 / 3;
     }
 
+    .infobulle {
+        padding-left: 20px;
+    }
+
+    .infobulle img {
+        vertical-align: text-bottom;
+    }
+
+    .articles {
+        
+        border-radius: 0;
+    }
+
+    .aside {
+        
+    }
+
     
 }
