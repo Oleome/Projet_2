@@ -420,7 +420,11 @@ section h1 {
     width: 100%;
     margin-top: 60.5px;
     background-color: #F2F2F2;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-right: 30px;
+    overflow: hidden;
 }
 
 footer a:hover {
@@ -441,11 +445,20 @@ footer li {
 }
 
 .nav_1 {
+    grid-column: 1 / 2;
     margin: 45px 0 0 70px;
 }
 
+.nav_2 {
+    grid-column: 2 / 3;
+}
+
+.nav_3 {
+    grid-column: 3 / 4;
+}
+
 .nav_2, .nav_3 { 
-    margin: 45px 0 0 235px;
+    margin: 45px 0 0 0;
 }
 
 .li_footer {
@@ -545,5 +558,7 @@ footer li {
         padding-right: 36px;
     }
 
-   
+    .bas_de_page {
+        width: 100%;
+    }
 }
