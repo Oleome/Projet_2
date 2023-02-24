@@ -591,22 +591,25 @@ footer li {
     }
 
     .logo {
-        padding-top: 21px;
+        padding: 0;
         margin: 0;
+        margin-top: 21px;
+        margin-bottom: 48px;
         grid-row: 1;
-        width: auto;
-        height: 129px;
+        width: 61px;
+        height: 19px;
         justify-self: center;
         align-self: center;
-    }
-
-    .logo img {
-        object-fit: contain;
+        grid-template-rows: 1fr;
     }
 
     .nav_bar {
         grid-row: 2 / 3;
         grid-template-columns: 50% 50%;
+        grid-row: 2;
+        margin: 0;
+        padding: 0;
     }
+    
 
 }
