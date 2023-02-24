@@ -304,6 +304,7 @@ section h1 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 9%;
+    align-items: center;
 }
 
 .aside h1 {
@@ -312,8 +313,11 @@ section h1 {
 
 .aside_en_tete img {
     object-fit: contain;
-    width: auto;
-    height: 23px;
+}
+
+.graphique {
+    align-items: center;
+    padding-top: 5px;
 }
 
 .aside_cards {
@@ -385,7 +389,7 @@ section h1 {
 
 .bas_card {
     display: grid;
-    grid-template-rows: 89% 11%;
+    grid-template-rows: 85% 15%;
     width: 22.5%;
     height: 100%;
     object-fit: fill;
