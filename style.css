@@ -83,6 +83,10 @@ h2 {
     width: 27%;
 }
 
+.rechercher:nth-child(4) {
+    display: none;
+}
+
 .localisation_img {
     background: #F2F2F2;
     border: 1px solid #F2F2F2;
@@ -128,6 +132,8 @@ h2 {
     background-color: #2177f8;
     cursor: pointer;
 }
+
+
 
 .filtres_ul {
     display: flex;
@@ -651,6 +657,14 @@ footer li {
         justify-content: center;
     }
 
+    .rechercher:nth-child(3) {
+        display: none;
+    }
+
+    .rechercher:nth-child(4) {
+        display: initial;
+    }
+
     .filtres_ul {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
@@ -660,7 +674,6 @@ footer li {
     }
 
     #li_filt {
-
         grid-area: 1 / 1 / 2 / 3;
     }
 
@@ -673,7 +686,6 @@ footer li {
     }
 
     .articles {
-        
         border-radius: 0;
     }
 
