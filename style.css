@@ -105,6 +105,10 @@ h2 {
     padding: 16px 0 16px 25px;
 }
 
+::placeholder {
+    color: black;
+}
+
 /*input:focus {
     outline: none;
 } J'ai préféré ne pas le mettre, suite à des recherches, pour des questions d'accessibilités*/
