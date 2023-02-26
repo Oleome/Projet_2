@@ -686,13 +686,22 @@ footer li {
         vertical-align: text-bottom;
     }
 
-    .articles {
-        border-radius: 0;
+    .section_haut {
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     .aside {
+        border-radius: 0;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .articles {
         
     }
+
+    
 
     
 }
