@@ -349,9 +349,9 @@ section h2 {
 }
 
 .aside_card_body {
-    display: grid;
-    grid-template-rows: 2fr 2fr 1fr;
-    row-gap: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .aside_card_body > * {
@@ -384,8 +384,13 @@ section h2 {
     overflow: hidden;
 }
 
+.aside_card_body_title {
+    margin: 0;
+}
+
 .aside_card_body p {
-    line-height: 16px;
+    padding-top: 7px;
+    margin: 0;
     font-size: 0.9rem;
 }
 
