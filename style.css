@@ -17,7 +17,7 @@ body {
     cursor: pointer;
 }
 
-header {
+.header_principal {
     white-space: nowrap;
     margin-bottom: 36px;
 }
@@ -114,10 +114,6 @@ h3 {
     color: black;
 }
 
-/*input:focus {
-    outline: none;
-} J'ai préféré ne pas le mettre, suite à des recherches, pour des questions d'accessibilités*/
-
 .rechercher {
     flex-shrink: 0;
     color: #fff;
@@ -175,7 +171,6 @@ h3 {
 }
 
 .infobulle img {
-    /*transform: translate(0, 30%);*/
     margin-right: 10px;
     vertical-align: middle;
 }
