@@ -262,14 +262,14 @@ h3 {
     color: #F2F2F2;
 }
 
-.article_h1 {
+.article_h2 {
     vertical-align: center;
     grid-column: 1/4;
     grid-row: 1;
     height: max-content;
 }
 
-section h1 {
+section h2 {
     margin: 0;
 }
 
