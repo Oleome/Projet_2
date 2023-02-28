@@ -13,6 +13,10 @@ body {
     padding: 0 50px;
 }
 
+.logo:hover, .nav_bar a:hover, .li_border:hover, .localisation_img:hover, .articles_card:hover, .aside_cards:hover, .bas_card:hover {
+    cursor: pointer;
+}
+
 header {
     white-space: nowrap;
     margin-bottom: 36px;
@@ -22,11 +26,11 @@ h1, h2, h3, .filtres_ul li, .form_input {
     font-weight: 700;
 }
 
-h1 {
+h1, h2 {
     font-size: 1.4rem;
 }
 
-h2 {
+h3 {
     font-size: 1rem;
 }
 
@@ -96,10 +100,6 @@ h2 {
     align-items: center;
     flex-shrink: 0;
     transform: translate(4%, 0);
-}
-
-.localisation_img:hover {
-    cursor: pointer;
 }
 
 .form_input {
@@ -324,7 +324,7 @@ section h1 {
     align-items: center;
 }
 
-.aside h1 {
+.aside h2 {
     white-space: nowrap;
 }
 
@@ -442,7 +442,7 @@ section h1 {
     padding-left: 19px;
 }
 
-.bas_card h2 {
+.bas_card h3 {
     margin: 0;
 }
 
@@ -500,7 +500,7 @@ footer li {
 
 @media screen and (max-width: 991px) {
 
-    h2 {
+    h3 {
         font-size: .9rem;
     }
 
@@ -530,7 +530,7 @@ footer li {
         column-gap: 23px;
     }
 
-    .aside h2 {
+    .aside h3 {
         padding-right: 15px;
     }
 
@@ -574,7 +574,7 @@ footer li {
         height: 100%;
     }
 
-    .bas_card h2 {
+    .bas_card h3 {
         height: 100%;
         margin: 0;
         padding-left: 17px;
