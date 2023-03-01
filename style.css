@@ -667,6 +667,7 @@ footer li {
 
     .form_input{
         font-size: 1rem;
+        padding: 18px 0 18px 28px;
     }
 
 
@@ -675,7 +676,7 @@ footer li {
     }
 
     .rechercher:nth-child(4) {
-        display: initial;
+        display: inline-block;
     }
 
     .div_filtres {
@@ -705,19 +706,21 @@ footer li {
         font-size: 1.1rem;
     }
 
+    .vecteur {
+        vertical-align: middle;
+        object-fit: fill;
+    }
+
     .li_border {
-        display: inline-block;
+        display: table-cell;
+        vertical-align: middle;
         font-size: .7rem;
         width: 100%;
-        padding: 10px 10px ;
     }
 
-    .li_border img {
-        vertical-align: middle;
-    }
-
-    .li_border span {
-        vertical-align: middle;
+    .li_border > * {
+        position: relative;
+        transform: translate(20%,20%);
     }
 
     .infobulle {
