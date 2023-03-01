@@ -684,7 +684,21 @@ footer li {
     }
 
     .filtres_ul {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 48% 48%;
+        row-gap: 17px;
+        column-gap: 14px;
         padding-inline-start: 0;
+        padding-right: 30px;
+    }
+
+    .filtres_ul:first-child {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .filtres_ul:nth-child(2) {
+        grid-area: 1 / 2 / 2 / 3;
     }
 
     #filtres {
@@ -692,7 +706,18 @@ footer li {
     }
 
     .li_border {
+        display: inline-block;
         font-size: .7rem;
+        width: 100%;
+        padding: 10px 10px ;
+    }
+
+    .li_border img {
+        vertical-align: middle;
+    }
+
+    .li_border span {
+        vertical-align: middle;
     }
 
     .infobulle {
