@@ -708,19 +708,13 @@ footer li {
 
     .vecteur {
         vertical-align: middle;
-        object-fit: fill;
     }
 
     .li_border {
+        padding: 11px 0 10px 10px;
         display: table-cell;
-        vertical-align: middle;
         font-size: .7rem;
         width: 100%;
-    }
-
-    .li_border > * {
-        position: relative;
-        transform: translate(20%,20%);
     }
 
     .infobulle {
