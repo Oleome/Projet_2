@@ -681,15 +681,7 @@ footer li {
     }
 
     .filtres_ul {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-        padding: 0 20px;
-        gap: 15px;
-    }
-
-    #filtres {
-        grid-area: 1 / 1 / 2 / 3;
+        
     }
 
     .li_border {
