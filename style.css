@@ -255,13 +255,14 @@ h3 {
     font-size: .8rem;
     word-spacing: -.5ch;
     padding: 3% 14px;
+    white-space: nowrap;
 }
 
 .stars i {
     color: #0065FC;
 }
 
-.stars:last-child {
+.stars i:last-child {
     color: #F2F2F2;
 }
 
@@ -443,17 +444,11 @@ section h2 {
     margin-right: 5%;
 }
 
-
-
 .bas_card_title {
     grid-row: 2 / 3;
     align-self: center;
     align-items: center;
     padding-left: 10%;
-}
-
-.bas_card h3 {
-    margin: 0;
 }
 
 .bas_de_page {
@@ -734,19 +729,101 @@ footer li {
     }
 
     .aside {
+        display: block;
         width: 100%;
         border-radius: 0;
         padding: 0 20px;
         margin: 0;
+        height: auto;
+    }
+
+    .aside_cards {
+        width: 100%;
+        background-color: #FFF;
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(70, 65, 65, 0.4);
+        display: flex;
+        margin-bottom: 3%;
+    }
+
+    .aside_cards:last-child {
+        margin-bottom: 40px;
+    }
+
+    .aside_en_tete {
+        padding: 27px 0;
+    }
+
+    .aside_card_body_title {
+        font-size: 1rem;
+    }
+
+    .aside_card_body p {
+        font-size: .9rem;
+    }
+
+    .aside .stars {
+        align-self: flex-start;
     }
 
     .articles {
+        display: block;
         width: 100%;
+        background-color: #FFF;
+    }
+
+    .article_h2 {
+        margin-bottom: 20px;
+    }
+
+    .articles_card {
+        margin-bottom: 20px;
+    }
+
+    .box_a {
+        display: none;
+    }
+
+    
+
+    .articles_card img {
+        object-fit: cover;
+    }
+
+    .section_bas {
+        padding: 0 30px;
+    }
+
+    .titre_section_bas {
+        width: 30%;
+        margin-top: 105px;
+        white-space: normal;
+    }
+
+    .section_bas_cards {
+        display: block;
+    }
+
+    .bas_card {
+        width: 100%;
+        margin-bottom: 24px;
+        display: grid;
+        grid-template-rows: 70% 30%;
+    }
+
+    .bas_card h3 {
+        height: 100%;
+        margin: 0;
+        font-size: 1rem;
+        padding-left: 17px;
+        padding-right: 17px;
     }
 
     .bas_de_page {
         width: 100%;
     }
+
+    
 
     
 
