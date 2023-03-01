@@ -140,6 +140,7 @@ h3 {
     width: 70%;
     justify-content: space-between;  
     margin: 0;
+    padding-inline-start: 4%;
 }
 
 .filtres_ul li {
@@ -660,18 +661,14 @@ footer li {
     
     .header_form {
         display: flex;
-        padding-left: 10%;
+        margin-left: 4%;
         width: 80%;
     }
 
     .form_input{
         font-size: 1rem;
-        padding: ;
     }
 
-    .header_formulaire {
-        justify-content: center;
-    }
 
     .rechercher:nth-child(3) {
         display: none;
@@ -681,22 +678,29 @@ footer li {
         display: initial;
     }
 
+    .div_filtres {
+        display: block;
+        margin-left: 4%;
+    }
+
     .filtres_ul {
-        
+        padding-inline-start: 0;
     }
 
 
     .li_border {
-        padding: 5% 7%;
         font-size: .7rem;
     }
 
     .infobulle {
+        display: flex;
         padding-left: 20px;
     }
 
     .infobulle img {
-        vertical-align: text-bottom;
+        position: relative;
+        transform: translate(0,-20%);
+        object-fit: contain;
     }
 
     .section_haut {
