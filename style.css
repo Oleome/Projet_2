@@ -687,6 +687,9 @@ footer li {
         padding-inline-start: 0;
     }
 
+    #filtres {
+        font-size: 1.1rem;
+    }
 
     .li_border {
         font-size: .7rem;
