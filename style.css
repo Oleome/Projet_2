@@ -82,7 +82,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.header_form {
+.header_formulaire {
     display: flex;
     align-items: center;
     width: 27%;
@@ -645,7 +645,7 @@ footer li {
         margin-left: 20px;
     }
     
-    .header_form {
+    .header_formulaire {
         display: flex;
         margin-left: 4%;
         width: 80%;
