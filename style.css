@@ -404,7 +404,7 @@ section h2 {
 
 .section_bas {
     display: grid;
-    grid-row: 1fr 90%;
+    grid-row: 10% 90%;
     width: 100%;
 }
 
