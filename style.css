@@ -403,8 +403,6 @@ section h2 {
 }
 
 .section_bas {
-    display: grid;
-    grid-template-rows: 10% 90%;
     width: 100%;
 }
 
