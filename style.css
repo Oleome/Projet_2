@@ -17,7 +17,7 @@ body {
     cursor: pointer;
 }
 
-.header_principal {
+.header_top {
     white-space: nowrap;
     margin-bottom: 36px;
 }
@@ -34,7 +34,7 @@ h3 {
     font-size: 1rem;
 }
 
-.en_tete {
+.logo_nav {
     display: flex;
 }
 
@@ -82,7 +82,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.header_formulaire {
+.header_form {
     display: flex;
     align-items: center;
     width: 27%;
@@ -321,7 +321,7 @@ section h2 {
     display: block;
 }
 
-.aside_en_tete {
+.aside_ahead {
     display: flex;
     justify-content: space-between;
     margin-bottom: 9%;
@@ -332,7 +332,7 @@ section h2 {
     white-space: nowrap;
 }
 
-.aside_en_tete img {
+.aside_ahead img {
     object-fit: contain;
 }
 
@@ -548,7 +548,7 @@ footer li {
         align-self: flex-end;
     }
 
-    .aside_en_tete {
+    .aside_ahead {
         margin: 0;
         grid-row: 1;
         grid-column: 1 / 4;
@@ -586,7 +586,7 @@ footer li {
         padding-right: 36px;
     }
 
-    .bottom_de_page {
+    .bottom_of_page {
         width: 100%;
     }
 }
@@ -602,7 +602,7 @@ footer li {
         white-space: normal;
     }
 
-    .en_tete {
+    .ahead {
         flex-direction: column;
         justify-content: center;
     }
@@ -633,7 +633,7 @@ footer li {
         color: #0065FC;
     }
 
-    #a_gauche {
+    #a_left {
         margin: 0;
     }
 
@@ -646,7 +646,7 @@ footer li {
         margin-left: 20px;
     }
     
-    .header_formulaire {
+    .header_form {
         display: flex;
         margin-left: 4%;
         width: 80%;
@@ -742,7 +742,7 @@ footer li {
         margin-bottom: 40px;
     }
 
-    .aside_en_tete {
+    .aside_ahead {
         padding: 27px 0;
     }
 
@@ -784,7 +784,7 @@ footer li {
         padding: 0 30px;
     }
 
-    .titre_section_bottom {
+    .title_section_bottom {
         width: 150px;
         margin-top: 105px;
         white-space: normal;
@@ -809,7 +809,7 @@ footer li {
         padding-right: 17px;
     }
 
-    .bottom_de_page {
+    .bottom_of_page {
         width: 100%;
         height: auto;
         flex-direction: column;
