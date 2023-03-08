@@ -221,6 +221,7 @@ h3 {
 
 .img_card {
     margin: 0;
+    width: 100%;
 }
 
 .img_card img {
