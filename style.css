@@ -61,7 +61,7 @@ h3 {
     padding: 48px 15px 0;
 }
 
-.nav_bar a, .bottom_de_page a {
+.nav_bar a, .bottom_of_page a {
     text-decoration: none;
     color: black;
 }
@@ -452,12 +452,13 @@ section h2 {
     padding-left: 10%;
 }
 
-.bottom_de_page {
+.bottom_of_page {
     height: 225px;
     width: 100%;
     margin-top: 60.5px;
     background-color: #F2F2F2;
     display: flex;
+    color: black;
 }
 
 footer a:hover {
@@ -602,7 +603,7 @@ footer li {
         white-space: normal;
     }
 
-    .ahead {
+    .logo_nav {
         flex-direction: column;
         justify-content: center;
     }
