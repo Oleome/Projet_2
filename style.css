@@ -161,14 +161,18 @@ h1 {
     border-radius: 30px;
     display: flex;
     white-space: nowrap;
+    align-items: center;
 }
 
 .li_border:hover {
     background-color: #DEEBFF;
 }
 
-.vecteur {
+::before {
     padding-right: 10px;
+    color: #0065FC;
+    display: flex;
+    scale: 1.2;
 }
 
 .infobulle {
