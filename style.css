@@ -92,7 +92,7 @@ h1 {
     width: 27%;
 }
 
-.rechercher:nth-child(4) {
+.glass {
     display: none;
 }
 
@@ -664,11 +664,11 @@ footer li {
     }
 
 
-    .rechercher:nth-child(3) {
+    .search {
         display: none;
     }
 
-    .rechercher:nth-child(4) {
+    .glass {
         display: inline-block;
     }
 
