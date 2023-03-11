@@ -791,6 +791,11 @@ footer li {
 
     .section_bottom {
         padding: 0 30px;
+        margin-top: 105px;
+    }
+
+    .box_6 .articles_card {
+        margin-bottom: 0;
     }
 
     .title_section_bottom {
