@@ -34,6 +34,10 @@ h3 {
     font-size: 1rem;
 }
 
+a {
+    color: black;
+}
+
 .logo_nav {
     display: flex;
 }
