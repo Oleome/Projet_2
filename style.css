@@ -408,13 +408,13 @@ section h2 {
 
 .section_bottom {
     display: grid;
-    grid-template-rows: 12% 88%;
     width: 100%;
     margin: 60px 0 18.5px 0;
 }
 
 .section_bottom h2 {
     grid-row: 1;
+    margin-bottom: 18.5px;
 }
 
 .section_bottom_cards {
@@ -792,8 +792,8 @@ footer li {
 
     .title_section_bottom {
         width: 150px;
-        margin-top: 105px;
         white-space: normal;
+        margin-bottom: 4px;
     }
 
     .section_bottom_cards {
