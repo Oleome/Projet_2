@@ -168,7 +168,7 @@ h1 {
     background-color: #DEEBFF;
 }
 
-::before {
+.li_border ::before {
     padding-right: 10px;
     color: #0065FC;
     display: flex;
@@ -708,9 +708,8 @@ footer li {
     }
 
     .li_border {
-        padding: 11px 0 10px 10px;
-        display: table-cell;
-        font-size: .7rem;
+        padding: 11px 0 10px 10px; 
+        font-size: .8rem;
     }
 
     .infobulle {
