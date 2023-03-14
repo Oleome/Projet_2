@@ -456,7 +456,11 @@ section h2 {
     grid-row: 2 / 3;
     align-self: center;
     align-items: center;
-    padding-left: 19px;
+    padding: 0 19px;
+}
+
+.bottom_card_title h3 {
+    padding: 0;
 }
 
 .bottom_of_page {
@@ -591,10 +595,7 @@ footer li {
     }
 
     .bottom_card h3 {
-        height: 100%;
         margin: 0;
-        padding-left: 17px;
-        padding-right: 17px;
     }
 
     .bottom_card_title {
@@ -830,8 +831,6 @@ footer li {
         height: 100%;
         margin: 0;
         font-size: 1rem;
-        padding-left: 17px;
-        padding-right: 17px;
     }
 
     .bottom_of_page {
