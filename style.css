@@ -115,6 +115,7 @@ h1 {
 
 ::placeholder {
     color: black;
+    font-size: 1.1rem;
 }
 
 .rechercher {
@@ -615,7 +616,7 @@ footer li {
 
     body {
         padding: 0;
-        min-width: 400px;
+        min-width: 360px;
     }
 
     header {
@@ -666,7 +667,11 @@ footer li {
         font-size: 1rem;
         margin-left: 20px;
     }
-    
+
+    .form {
+        margin-right: 50px;
+    }
+
     .header_form {
         display: flex;
         margin-left: 22px;
@@ -674,10 +679,10 @@ footer li {
     }
 
     .form_input{
-        font-size: 1rem;
-        padding: 18px 0 18px 28px;
+        width: 80%;
+        font-size: 1.1rem;
+        padding: 18px 0 18px 16px;
     }
-
 
     .search {
         display: none;
@@ -719,7 +724,7 @@ footer li {
     }
 
     .li_border {
-        padding: 11px 0 10px 10px; 
+        padding: 10px; 
         font-size: .7rem;
     }
 
