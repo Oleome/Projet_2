@@ -141,10 +141,10 @@ h1 {
 
 .filtres_ul {
     display: flex;  
-    width: 70%;
     justify-content: space-between;  
     margin: 0;
     padding-inline-start: 35px;
+    gap: 30px;
 }
 
 .filtres_ul li {
@@ -157,7 +157,7 @@ h1 {
 
 .li_border {
     border: 3px #F2F2F2 solid;
-    padding: 14px 24px;
+    padding: 14px 20px;
     border-radius: 30px;
     display: flex;
     white-space: nowrap;
