@@ -513,8 +513,19 @@ footer li {
         font-size: .8rem;
     }
 
+    .div_filtres {
+        flex-wrap: wrap;
+        white-space: normal;
+    }
+
     .filtres_ul {
         width: 90%;
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    .li_border {
+        padding: 12px 15px;
     }
 
     .section_top {
