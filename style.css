@@ -536,7 +536,6 @@ footer li {
     }
 
     .aside p {
-        white-space: nowrap;
         font-size: 0.8rem;
     }
 
@@ -546,10 +545,6 @@ footer li {
 
     .aside_cards img {
         width: 45%;
-    }
-
-    .aside footer {
-        align-self: flex-end;
     }
 
     .aside_ahead {
