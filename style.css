@@ -22,7 +22,7 @@ body {
     margin-bottom: 36px;
 }
 
-h1, h2, h3, .filtres_ul li, .form_input {
+h1, h2, h3, .filtres_ul li, .form_input, .euro {
     font-weight: 700;
 }
 
@@ -285,41 +285,18 @@ section h2 {
     margin: 0;
 }
 
-.articles_card:first-child, .articles_card:nth-child(2), .articles_card:nth-child(3) {
+.articles:nth-child(2), .articles:nth-child(3), .articles:nth-child(4) {
     grid-row: 2 / 3;
 }
 
-.articles_card:first-child {
-    grid-column: 1 / 2;
-}
 
-.articles_card:nth-child(2) {
-    grid-column: 2 / 3;
-}
-
-.articles_card:nth-child(3) {
-    grid-column: 3 / 4;
-}
-
-.articles_card:nth-child(4), .articles_card:nth-child(5), .articles_card:nth-child(6) {
+.articles:nth-child(5), .articles:nth-child(6), .articles:nth-child(7) {
     grid-row: 3 / 4;
 }
 
-.articles_card:nth-child(4) {
-    grid-column: 1 / 2;
-}
-
-.articles_card:nth-child(5) {
-    grid-column: 2 / 3;
-}
-
-.articles_card:nth-child(6) {
-    grid-column: 3 / 4;
-}
 
 .box_a {
     grid-row: 4 / 5;
-    grid-column: 1 / 2;
     font-size: 1.2rem;
     text-decoration: none;
     padding-top: 10px;
