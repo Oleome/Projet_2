@@ -490,15 +490,15 @@ footer li {
     margin-bottom: 20px;
 }
 
-.nav_1, .nav_2, .nav_3 {
+.nav_footer {
     flex: 1;
 }
 
-.nav_1 {
+.nav_footer:first-child {
     margin: 45px 0 0 70px;
 }
 
-.nav_2, .nav_3 {
+.nav_footer:nth-child(2), .nav_footer:nth-child(3) {
     margin-top: 45px;
 }
 
@@ -844,7 +844,7 @@ footer li {
         flex-direction: column;
     }   
 
-    .nav_1, .nav_2, .nav_3 {
+    .nav_footer {
         margin-left: 30px;
     }
 
