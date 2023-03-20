@@ -276,7 +276,7 @@ h1 {
     color: #F2F2F2;
 }
 
-.article_h2 {
+#article_h2 {
     vertical-align: center;
     grid-column: 1 / 4;
     grid-row: 1 / 2;
@@ -762,7 +762,7 @@ footer li {
         background-color: #FFF;
     }
 
-    .article_h2 {
+    #article_h2 {
         margin-bottom: 20px;
     }
 
@@ -787,7 +787,7 @@ footer li {
         margin-top: 105px;
     }
 
-    .title_section_bottom {
+    #title_section_bottom {
         width: 150px;
         white-space: normal;
         margin-bottom: 4px;
