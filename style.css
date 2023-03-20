@@ -324,9 +324,8 @@ section h2 {
     object-fit: contain;
 }
 
-.graphique {
-    align-items: center;
-    padding-top: 5px;
+.fa-chart-line::before {
+    color: #0065FC;
 }
 
 .aside_cards {
