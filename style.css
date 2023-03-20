@@ -172,7 +172,7 @@ h1 {
     padding-right: 10px;
     color: #0065FC;
     display: flex;
-    scale: 1.2;
+    transform: scale(1.2);
 }
 
 .infobulle {
