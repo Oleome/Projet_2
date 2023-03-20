@@ -70,6 +70,10 @@ a {
     color: black;
 }
 
+.bottom_of_page a {
+    font-size: 1.125rem;
+}
+
 .nav_bar a:hover {
     color: #0065FC;
     border-top: 2px solid #0065FC;
@@ -108,7 +112,7 @@ h1 {
 
 .form_input {
     flex-shrink: 0;
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     border: 1px solid #F2F2F2;
     padding: 16px 0 16px 17px ;
 }
@@ -577,10 +581,6 @@ footer li {
 
     .bottom_card_title {
         align-self: center;
-    }
-
-    #notre_dame {
-        padding-right: 36px;
     }
 
     .bottom_of_page {
