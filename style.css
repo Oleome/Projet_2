@@ -43,9 +43,7 @@ a {
 }
 
 .logo {
-    margin-right: auto;
-    padding-top: 44px;
-    padding-bottom: 63px;
+    margin: 44px auto 63px 0;
 }
 
 .logo:hover {
