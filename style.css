@@ -289,11 +289,9 @@ section h2 {
     grid-row: 2 / 3;
 }
 
-
 .articles:nth-child(5), .articles:nth-child(6), .articles:nth-child(7) {
     grid-row: 3 / 4;
 }
-
 
 .box_a {
     grid-row: 4 / 5;
