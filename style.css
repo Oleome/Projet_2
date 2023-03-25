@@ -433,13 +433,15 @@ section h2 {
 
 .bottom_card_title {
     grid-row: 2 / 3;
-    align-self: center;
+    margin: 17px 16px;
+    display: flex;
     align-items: center;
-    padding: 0 19px;
 }
 
 .bottom_card_title h3 {
     padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
 .bottom_of_page {
@@ -803,12 +805,6 @@ footer li {
         margin-bottom: 24px;
         display: grid;
         grid-template-rows: 70% 30%;
-    }
-
-    .bottom_card_title {
-        display: flex;
-        text-align: center;
-        justify-content: center;
     }
 
     .bottom_card h3 {
