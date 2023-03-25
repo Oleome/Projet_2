@@ -113,7 +113,7 @@ h1 {
     flex-shrink: 0;
     font-size: 1.125rem;
     border: 1px solid #F2F2F2;
-    padding: 16px 0 16px 17px ;
+    padding: 16px 0 17px 17px ;
 }
 
 ::placeholder {
@@ -803,6 +803,12 @@ footer li {
         margin-bottom: 24px;
         display: grid;
         grid-template-rows: 70% 30%;
+    }
+
+    .bottom_card_title {
+        display: flex;
+        text-align: center;
+        justify-content: center;
     }
 
     .bottom_card h3 {
