@@ -116,6 +116,10 @@ h1 {
     padding: 16px 0 17px 17px ;
 }
 
+.form_input:focus {
+    outline: none;
+}
+
 ::placeholder {
     color: black;
     font-size: 1.1rem;
