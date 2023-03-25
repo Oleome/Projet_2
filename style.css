@@ -221,13 +221,9 @@ h1 {
     box-shadow: 0 0 10px rgba(70, 65, 65, 0.4);
 }
 
-.articles_card:hover {
+.articles_card:hover, .aside_cards:hover {
     transform: scale(1.05 , 1.05);
     transition: 0.5s;
-}
-
-.articles_card:hover > img {
-    transform: scale(0.95);
 }
 
 .img_card {
@@ -345,15 +341,6 @@ section h2 {
 
 .aside_card_body > * {
     margin: 0;
-}
-
-.aside_cards:hover {
-    transform: scale(1.05 , 1.05);
-    transition: 0.5s;
-}
-
-.aside_cards:hover > img {
-    transform: scale(0.95);
 }
 
 .aside_cards > img {
